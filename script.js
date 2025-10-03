@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
             throw new Error(`Response status: ${response.status}`)
         }
 
-          return await response.json(); // ✅ return parsed JSON
+          return await response.json();
 }
 
     async function displayWeatherData(weatherData) {
